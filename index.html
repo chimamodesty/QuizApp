@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz">
+            <div id="question">Question Text</div>
+            <div class="options">
+                <button class="option">Option 1</button>
+                <button class="option">Option 2</button>
+                <button class="option">Option 3</button>
+                <button class="option">Option 4</button>
+            </div>
+            <button id="next" class="btn">Next</button>
+        </div>
+        <div id="result" class="hide">
+            <h2>You scored <span id="score"></span> out of <span id="total"></span></h2>
+            <button id="restart" class="btn">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
